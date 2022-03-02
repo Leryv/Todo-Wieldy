@@ -7,7 +7,10 @@ function TodoAja() {
   return (
     <div>
     <React.StrictMode>
-        <Card title = "Todo list" style={{marginTop: 50}}>
+        <Card
+          title="Todo list"
+          // style={{ marginTop: 50 }}
+        >
           <CreateModal />
           <TableComponent />
         </Card>

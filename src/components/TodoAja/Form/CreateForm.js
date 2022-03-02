@@ -42,7 +42,8 @@ const CreateForm = ({ visible, onCreate, onCancel }) => {
                         },
                     ]}
                 >
-            <Input placeholder="Input Task"
+            <Input
+              placeholder="Input Task"
               autoComplete="off"
                     />
                 </Form.Item>

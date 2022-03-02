@@ -5,9 +5,7 @@ import TodoAja from "../../components/TodoAja/Index";
 const Todo = () => {
   return (
     <div>
-      {/* <h2 clasName="title gx-mb-4">
-        My Todo List
-      </h2>*/}
+
 
         <TodoAja />
 
